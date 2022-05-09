@@ -48,7 +48,8 @@ function App() {
                   />
                 </div>
                 <div className="one-half column">
-                  <Listado gastos={gastos} />
+                  <Listado
+                  gastos={gastos} />
 
                   <ControlPresupuesto
                     presupuesto={presupuesto}
